@@ -3,7 +3,7 @@
 Aggiornare questa pagina ogni volta che vengono svolte task o dopo ogni lavoro, anche con
 poche righe. 
 **Formato: data e ora - autore: cosa è stato fatto.**
-L'ideale sarebbe contorllare questo file anche ogni volta che si inizia a lavorare per
+L'ideale sarebbe controllare questo file anche ogni volta che si inizia a lavorare per
 leggere gli aggiornamenti del collega.
 
 Legenda:
