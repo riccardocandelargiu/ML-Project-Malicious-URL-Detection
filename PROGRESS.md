@@ -18,6 +18,6 @@ Formato: data - autore - cosa è stato fatto.
 
 **14/07/2026 - Riccardo**: 
 Creata struttura repository e generato subset stratificato
-da 15.000 righe (proporzioni originali mantenute tra le 4 classi).
-Creato il README.md aggiornato con tutte le cose da fare (lavoriamo attivamente sui nostri IDE personali
-e il lavoro svolto lo inseriamo dentro /notebooks , creando sotto-cartelle dedicate ad ogni fase)
+da 15.000 righe (proporzioni originali mantenute tra le 4 classi), quindi considero svolta la fase 0.
+Creato il README.md aggiornato con tutte le cose da fare (lavoriamo sui nostri IDE personali
+e il lavoro svolto lo inseriamo dentro la cartella notebooks, creando sotto-cartelle dedicate ad ogni fase)
