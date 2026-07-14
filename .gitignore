@@ -1,0 +1,14 @@
+# Ambiente Python
+venv/
+__pycache__/
+*.pyc
+
+# Dataset grezzo: se supera i 50MB meglio non versionarlo su git
+# (scaricarlo di nuovo con le istruzioni nel README invece di committarlo)
+data/raw/*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# File di sistema
+.DS_Store
