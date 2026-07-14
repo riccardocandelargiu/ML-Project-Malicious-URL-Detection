@@ -27,6 +27,8 @@ malicious-url-detection/
 ├── figures/            # grafici esportati (per le slide finali)
 ├── slides/             # le 10 slide di presentazione del progetto
 ├── requirements.txt
+├── PROGRESS.md         # contentente tutti gli aggiornamenti lavorativi quotidiani
+├── README.md
 └── .gitignore
 ```
 
