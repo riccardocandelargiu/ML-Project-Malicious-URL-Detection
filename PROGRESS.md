@@ -22,6 +22,9 @@ Legenda:
 
 ## Aggiornamenti (in alto il più recente)
 
+**14/07/2026 19:45 - Matteo**:
+RISPOSTA DOMANDA: Lasciamo perdere le issue e lavoriamo utilizzando i punti definiti nel README e aggiornamenti qui sul PROGRESS.
+
 **14/07/2026 18:30 - Riccardo**:
 Creato e implementato il notebook 01_eda che analizza il dataset per verificare che i dati siano ottimali prima
 di creare le feature che saranno in seguito classificate.
@@ -33,4 +36,4 @@ Creata struttura repository e generato subset stratificato
 da 15.000 righe (proporzioni originali mantenute tra le 4 classi), quindi considero svolta la fase 0.
 Creato il README.md aggiornato con tutte le cose da fare (lavoriamo sui nostri IDE personali
 e il lavoro svolto lo inseriamo dentro la cartella notebooks, creando sotto-cartelle dedicate ad ogni fase)
-❓ DOMANDA: Usiamo le issue come supporto (come per ISDE) per definire meglio le tasks?
+DOMANDA: Usiamo le issue come supporto (come per ISDE) per definire meglio le tasks?
