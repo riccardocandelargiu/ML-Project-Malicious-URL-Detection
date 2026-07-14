@@ -3,4 +3,4 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-jupyter
+ipykernel # alternativa rispetto a jupyter
