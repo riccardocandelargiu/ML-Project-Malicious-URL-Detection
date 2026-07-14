@@ -39,7 +39,7 @@ generato con `src/make_subset.py`, molto più leggero e sufficiente per tutto il
 
 1. Clonare il repository:
    ```
-   git clone <url-del-repo>
+   git clone https://github.com/riccardocandelargiu/ML-Project-Malicious-URL-Detection-.git
    cd malicious-url-detection
 
 ## ROADMAP
