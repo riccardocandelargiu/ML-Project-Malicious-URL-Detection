@@ -21,11 +21,22 @@ Richiede: pandas, scikit-learn
 """
 
 import pandas as pd
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-RAW_PATH = "data/raw/malicious_urls.csv"          # file scaricato da Kaggle
-SUBSET_PATH = "data/subset/malicious_urls_subset.csv"
-TARGET_SIZE = 15000                                # dentro il range 10.000-20.000 richiesto
+
+# Percorsi calcolati a partire dalla posizione di QUESTO file (src/make_subset.py),
+# non dalla cartella da cui lo lanci: funziona sia da PyCharm sia da terminale.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+RAW_PATH = PROJECT_ROOT / "data" / "raw" / "malicious_urls.csv"
+SUBSET_PATH = PROJECT_ROOT / "data" / "subset" / "malicious_urls_subset.csv"
+TARGET_SIZE = 15000
+
+# alternativa iniziale, modificato con la sintassi di sopra per evitare errori
+# quando si esegue codice in dispositivi diversi.
+# RAW_PATH = "data/raw/malicious_urls.csv"          # file scaricato da Kaggle
+# SUBSET_PATH = "data/subset/malicious_urls_subset.csv"
+# TARGET_SIZE = 15000                                # dentro il range 10.000-20.000 richiesto
 
 def main():
     df = pd.read_csv(RAW_PATH)
