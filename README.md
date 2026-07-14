@@ -11,6 +11,7 @@ nessuna visita del sito).
 
 Dataset: [Malicious URL's Dataset](https://www.kaggle.com/datasets/naveenbhadouria/malicious) (Kaggle, ~651k righe).
 
+
 ## Struttura del repository
 
 ```
@@ -35,14 +36,8 @@ progetto richiedono di usare un subset se il dataset supera 10.000-20.000 campio
 su GitHub: si carica su GitHub solo `data/subset/malicious_urls_subset.csv` (circa 15.000 righe),
 generato con `src/make_subset.py`, molto più leggero e sufficiente per tutto il progetto.
 
-## Come iniziare (setup locale)
 
-1. Clonare il repository:
-   ```
-   git clone https://github.com/riccardocandelargiu/ML-Project-Malicious-URL-Detection-.git
-   cd malicious-url-detection
-
-## ROADMAP
+## ROADMAP (da valutare modifica in caso classificazione con un solo modello)
 
 **Fase 0 — Creazione del subset:** solo Python/pandas (sezione 12 della guida), nessun concetto teorico specifico, ma è un passaggio obbligatorio prima di tutto il resto.
 
@@ -67,8 +62,9 @@ generato con `src/make_subset.py`, molto più leggero e sufficiente per tutto il
 **Fase 10 — Extra per il 30L (facoltativo ma consigliato):** un accenno al modulo di adversarial machine learning (sezione 9): quanto sarebbe facile per un attaccante modificare leggermente un URL malevolo per ingannare il vostro classificatore? Anche solo una discussione qualitativa nelle slide finali, collegata alla ricerca del Prof, dà un ottimo valore aggiunto.
 
 **Fase 11 — Slide finali:** le 10 slide richieste, con link GitHub nella prima.
+
  
-## Stato del progetto
+## Stato del progetto iniziale
 
 - [ ] Analisi esplorativa dei dati (EDA)
 - [ ] Feature engineering (vedi `src/features.py`)
