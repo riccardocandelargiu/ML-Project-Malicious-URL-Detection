@@ -26,6 +26,7 @@ Legenda:
 Creato e implementato il notebook 01_eda che analizza il dataset per verificare che i dati siano ottimali prima
 di creare le feature che saranno in seguito classificate.
 Và solamente analizzato l'output per annotare gli accorgimenti da definire in un eventuale report o presentazione (❗ promemoria da fare).
+I grafici generati dal notebook 01.eda non sono stati salvati su figures per qualche motivo, devo rivederlo, me ne occupo io (❗ promemoria da fare)
 
 **14/07/2026 15:00 - Riccardo**: 
 Creata struttura repository e generato subset stratificato
