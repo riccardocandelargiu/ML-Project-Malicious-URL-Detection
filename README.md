@@ -36,6 +36,8 @@ progetto richiedono di usare un subset se il dataset supera 10.000-20.000 campio
 su GitHub: si carica su GitHub solo `data/subset/malicious_urls_subset.csv` (circa 15.000 righe),
 generato con `src/make_subset.py`, molto più leggero e sufficiente per tutto il progetto.
 
+⚠ **Aggiornare PROGRESS.md dopo ogni modifica importante.**
+
 
 ## ROADMAP (da valutare modifica in caso classificazione con un solo modello)
 
