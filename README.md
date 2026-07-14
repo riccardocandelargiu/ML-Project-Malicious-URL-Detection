@@ -1,7 +1,7 @@
-# Malicious URL Detection — Progetto Machine Learning 2025/2026
+# Malicious URL Detection — Progetto Machine Learning
 
-Progetto per il corso di Machine Learning (Prof. Battista Biggio, Università di Cagliari).
-Autori: Riccardo, Matteo.
+Progetto per il corso di Machine Learning.
+Autori: Riccardo Candelargiu, Matteo Mura.
 
 ## Obiettivo
 
@@ -24,7 +24,7 @@ malicious-url-detection/
 │   ├── make_subset.py  # crea il subset stratificato da data/raw -> data/subset
 │   └── features.py     # funzioni di estrazione feature, riusabili da notebook e script
 ├── figures/            # grafici esportati (per le slide finali)
-├── slides/              # le 10 slide di presentazione del progetto
+├── slides/             # le 10 slide di presentazione del progetto
 ├── requirements.txt
 └── .gitignore
 ```
@@ -75,4 +75,4 @@ generato con `src/make_subset.py`, molto più leggero e sufficiente per tutto il
 - [ ] Split train/test
 - [ ] Addestramento classificatori (Gaussiano, k-NN, SVM, MLP)
 - [ ] Valutazione e confronto (cross-validation, confusion matrix)
-- [ ] Slide finali + link GitHub
+- [ ] Slide finali
