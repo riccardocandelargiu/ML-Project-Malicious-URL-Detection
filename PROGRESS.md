@@ -15,9 +15,9 @@ Legenda:
 - [x] Creare struttura repository
 - [x] Scaricare dataset e creare subset (15.000 righe)
 - [x] EDA sul subset (notebook 01_eda.ipynb)
-- [ ] Feature engineering (notebook 02_feature_engineering.ipynb)
-- [ ] Split train/test + primo classificatore
-- [ ] Valutazione e confronto
+- [x] Feature engineering (notebook 02_feature_engineering.ipynb)
+- [x] Split train/test + primo classificatore
+- [x] Valutazione e confronto
 - [ ] Slide finali
 
 ## Aggiornamenti (in alto il più recente)
