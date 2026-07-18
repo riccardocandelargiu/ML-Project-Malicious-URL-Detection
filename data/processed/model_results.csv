@@ -1,0 +1,5 @@
+,balanced_acc,macro_f1
+MLP,0.861,0.883
+kNN,0.8,0.817
+SVM (RBF),0.78,0.809
+Gaussian,0.583,0.503
